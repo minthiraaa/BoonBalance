@@ -127,7 +127,7 @@ export default function PlaceDetailScreen({ route, navigation }) {
 
           {!!mapError && <Text accessibilityRole="alert" style={{color: "#a22", marginBottom: 12}}>{mapError}</Text>}
           <Text style={{color: "#786c7c", fontSize: 12, marginBottom: 16, lineHeight: 18}}>
-            ข้อมูลสร้างใหม่เพื่อสาธิต • คะแนนอ้างอิงจากภาพเดิม ไม่ใช่รีวิวปัจจุบัน โปรดตรวจสอบเวลาและข้อปฏิบัติกับสถานที่ก่อนเดินทาง
+            โปรดตรวจสอบเวลาและข้อปฏิบัติกับสถานที่ก่อนเดินทาง
           </Text>
           {/* DETAILS */}
           {place.location ? (
