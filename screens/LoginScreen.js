@@ -13,7 +13,7 @@ import { loginStyles as styles } from "../stylesheets/loginStyles";
 export default function LoginScreen({ navigation }) {
   const [notice, setNotice] = useState("");
   const [email, setEmail] = useState("");
-  const social = (provider) => setNotice(`${provider} ยังไม่ได้เชื่อมระบบบัญชีจริง กรุณาใช้ปุ่ม Log In เพื่อทดลองแอป`);
+ const social = () => navigation.navigate("Service");
   return (
     <View style={styles.container}>
       <StatusBar barStyle="dark-content" />
